@@ -16,12 +16,6 @@ The initial step involves understanding the dataset by exploring its structure a
 - Understanding the data types of each feature
 - Summarizing the statistics of numerical and non-numerical features
 
-## Visualizations
-We will create various plots to visualize the relationships between different features and the delivery time, as well as the distribution of deliveries. Some of the visualizations include:
-- Bar graphs of categorical features against delivery time
-- Scatter plots of numerical features against delivery time
-- Vehicle type against delivery time
-
 ## Feature Engineering
 Feature engineering involves creating new features or transforming existing ones to improve the performance of the model. In this project, we will:
 - Create new time-based features such as hour of the day, day of the week, etc.
