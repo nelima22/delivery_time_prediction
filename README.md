@@ -45,7 +45,11 @@ Grid Search CV helps in finding the best combination of hyperparameters for each
 After training the models, we will evaluate their performance using appropriate metrics such as Mean Absolute Error (MAE) and Root Mean Squared Error (RMSE). The model with the best performance will be selected as the final model.
 
 ## Conclusion
-The project demonstrates the process of building a predictive model for food delivery duration. Key takeaways include the importance of data preprocessing, feature engineering, and model selection. The final model can be used by food delivery services to estimate delivery times more accurately.
+The project demonstrates the process of building a predictive model for food delivery duration. Key takeaways include the importance of data preprocessing, feature engineering, and model selection.
+
+We tested three models;Linear Rrgressor, Decision Tree Regressor and Random Forest Regressor. It was determined that the Ramdom Forest regressor performed best. The model was evaluated using several metrics to assess its performance, including Mean Absolute Error (MAE), Mean Squared Error (MSE), Root Mean Squared Error (RMSE), and R-squared (R2) score.
+
+The model's R2 score of 0.81 indicates a high level of explanatory power, suggesting that the model captures the majority of the variability in the data. The low MAE and RMSE values further support that the model makes predictions with relatively small errors. Together, these metrics indicate that the model performs well in terms of both accuracy and reliability.
 
 ## References
 1. [Food Felivery Dataset from Kaggle](https://www.kaggle.com/datasets/gauravmalik26/food-delivery-dataset/data?select=test.csv)
